@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2016/10/31, 14:44:35
+    Author     : 2150084
+*/
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+    background-color: #000;
+}
+
+html,body
+{
+    font-family:"ヒラギノ角ゴ Pro W3",メイリオ,Osaka,Arial,Verdana
+        ,"ＭＳ Ｐゴシック",sans-serif;
+}
+
+
+#header{
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    background-color: #0f0;
+}
+
+#wrapper{
+    float: left;
+}
+
+#main{
+    width: 570px;
+    float: right;
+    margin: 0 auto;
+    background-color: #fff;
+    text-align: center;
+    height: 800px;
+
+}
+
+#left{
+    width: 190px;
+    float: left;
+    background-color: #ffff00;
+    height: 800px;
+}
+
+#right{
+    width: 190px;
+    float: right;
+    background-color: #0000ff;
+    height: 800px;
+}
+
+#footer{
+    clear: both;
+    width: 1000px;
+    height: 50px;
+    text-align: center;
+}

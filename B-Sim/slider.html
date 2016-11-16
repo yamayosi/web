@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+
+http://www.victory.ecccomp.jp/slider.html
+
+http://click.ecc.ac.jp/ecc/bsim/2016/ie/victory/slider.html
+-->
+<html>
+    <head>
+        <title>SAMPLE</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1">
+        <link rel="stylesheet" href="./css/swiper.min.css">
+        <style>
+            body {
+                background: #fff;
+                font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                font-size: 14px;
+                color:#000;
+                margin: 0;
+                padding: 0;
+            }
+            .swiper-container {
+                width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+            .swiper-slide {
+                background-position: center;
+                background-size: cover;
+                width: 200px;
+                height: 200px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 align="center">SAMPLEです</h1>
+
+        <!-- Slider main container -->
+        <div class="swiper-container">
+            <!-- Additional required wrapper -->
+            <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide"><img src="./img/dog.jpg" alt="photo" width="200" height="200"></div>
+                <div class="swiper-slide"><img src="./img/nezumi.jpeg" alt="photo" width="200" height="200"></div>
+                <div class="swiper-slide"><img src="./img/test.png" alt="photo" width="200" height="200"></div>
+                <div class="swiper-slide"><img src="./img/moon.png" alt="photo" width="200" height="200"></div>
+            </div>
+            <!-- ページネーション -->
+            <div class="swiper-pagination"></div>
+
+            <!-- ナビゲーションボタン -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+
+            <!-- スクロールバー -->
+            <div class="swiper-scrollbar"></div>
+        </div>
+        <script src="./js/swiper.min.js"></script>
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                effect: 'coverflow',
+                grabCursor: true,
+                centeredSlides: true,
+                slidesPerView: 'auto',
+                coverflow: {
+                    rotate: 50,
+                    stretch: 0,
+                    depth: 100,
+                    modifier: 1,
+                    slideShadows: true
+                }
+            });
+        </script>
+    </body>
+</html>

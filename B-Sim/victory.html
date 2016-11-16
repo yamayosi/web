@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+http://click.ecc.ac.jp/ecc/bsim/2016/ie/victory/victory.html
+
+コーディング順
+ヘッダー→メイン→左サイド→右サイド→フッター
+
+width:1000
+left:190
+main:570
+right:190
+
+-->
+<html>
+    <head>
+        <title>Victory文具</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/swiper.min.css">
+
+        <!--ここから-->
+        <style>
+            /*            html, body {
+                            position: relative;
+                            height: 100%;
+                        }
+                        body {
+                            background: #eee;
+                            font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+                            font-size: 14px;
+                            color:#000;
+                            margin: 0;
+                            padding: 0;
+                        }*/
+            .swiper-container {
+                width: 100%;
+                height: 100%;
+
+            }
+            .swiper-slide {
+                text-align: center;
+                font-size: 18px;
+                background: #fff;
+
+                /* Center slide text vertically */
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                -webkit-justify-content: center;
+                justify-content: center;
+                -webkit-box-align: center;
+                -ms-flex-align: center;
+                -webkit-align-items: center;
+                align-items: center;
+            }
+        </style>
+        <!--ここまで-->
+    </head>
+    <body>
+        <header id="header">
+            <!--ここから-->
+            <div class="swiper-container">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><img src="./img/night.jpg" alt="sceen"></div>
+                    <div class="swiper-slide"><img src="./img/green.jpg" alt="sceen"></div>
+                    <div class="swiper-slide"><img src="./img/temple.jpg" alt="sceen"></div>
+                    <!--                    <div class="swiper-slide">Slide 4</div>
+                                        <div class="swiper-slide">Slide 5</div>
+                                        <div class="swiper-slide">Slide 6</div>
+                                        <div class="swiper-slide">Slide 7</div>
+                                        <div class="swiper-slide">Slide 8</div>
+                                        <div class="swiper-slide">Slide 9</div>
+                                        <div class="swiper-slide">Slide 10</div>-->
+                </div>
+                Add Pagination 
+                <div class="swiper-pagination"></div>
+                Add Arrows 
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+            <!--ここまで-->
+        </header>
+        <div id="wrapper">
+            <main id="main">
+                <div id="write" class="content">
+                    <table border="1">
+
+                        <tr>
+                            <td width="150" height="150">文具サムネイル1</td>
+                            <td width="150" height="150">商品サムネイル2</td>
+                            <td width="150" height="150">商品サムネイル3</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="70">商品名・価格1</td>
+                            <td width="150" height="70">商品名・価格2</td>
+                            <td width="150" height="70">商品名・価格3</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="150">商品サムネイル4</td>
+                            <td width="150" height="150">商品サムネイル5</td>
+                            <td width="150" height="150">商品サムネイル6</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="70">商品名・価格4</td>
+                            <td width="150" height="70">商品名・価格5</td>
+                            <td width="150" height="70">商品名・価格6</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="150">商品サムネイル7</td>
+                            <td width="150" height="150">商品サムネイル8</td>
+                            <td width="150" height="150">商品サムネイル9</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="70">商品名・価格7</td>
+                            <td width="150" height="70">商品名・価格8</td>
+                            <td width="150" height="70">商品名・価格9</td>
+                        </tr>
+                    </table>
+                </div>
+                <div id="paint" class="content">
+                    <table border="1">
+                        <tr>
+                            <td width="150" height="150">画材サムネイル1</td>
+                            <td width="150" height="150">商品サムネイル2</td>
+                            <td width="150" height="150">商品サムネイル3</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="70">商品名・価格1</td>
+                            <td width="150" height="70">商品名・価格2</td>
+                            <td width="150" height="70">商品名・価格3</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="150">商品サムネイル4</td>
+                            <td width="150" height="150">商品サムネイル5</td>
+                            <td width="150" height="150">商品サムネイル6</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="70">商品名・価格4</td>
+                            <td width="150" height="70">商品名・価格5</td>
+                            <td width="150" height="70">商品名・価格6</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="150">商品サムネイル7</td>
+                            <td width="150" height="150">商品サムネイル8</td>
+                            <td width="150" height="150">商品サムネイル9</td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="70">商品名・価格7</td>
+                            <td width="150" height="70">商品名・価格8</td>
+                            <td width="150" height="70">商品名・価格9</td>
+                        </tr>
+                    </table>
+                </div>
+            </main>
+            <!--左サイド-->
+            <div id="left">
+                <dl class="hide">
+                    <dt>
+                    <img src="./img/st.png" alt="banner">
+                    </dt>
+                    <dd>
+                        <ul>
+                            <li>ボールペン</li>
+                        </ul>
+                    </dd>
+                </dl>
+                <dl class="hide02">
+                    <dt>
+                    <img src="./img/gazai.png" alt="banner">
+                    </dt>
+                    <dd>
+                        <ul>
+                            <li>筆</li>
+                        </ul>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <!--右サイド-->
+        <div id="right">
+            <div id="form">
+                <form action="victory.html" method="get">
+                    <input type="text" name="serch" size="17">
+                    <div id="btn">
+                        <input type="image" name="sub" width="20" height="20" src="./img/glass.png">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <!--フッター-->
+        <footer id="footer">
+            <font color="#f00"> フッター</font>
+        </footer>
+        <!--ここから-->
+        <script src="./js/swiper.min.js"></script>
+        <!--Initialize Swiper--> 
+        <script>
+            var swiper = new Swiper('.swiper-container', {
+                pagination: '.swiper-pagination',
+                nextButton: '.swiper-button-next',
+                prevButton: '.swiper-button-prev',
+                paginationClickable: true,
+                spaceBetween: 30,
+                centeredSlides: true,
+                autoplay: 2500,
+                autoplayDisableOnInteraction: false
+            });
+        </script>
+        <!--ここまで-->
+    </body>
+</html>
