@@ -18,7 +18,7 @@
         //列数指定
         $col = 3;
         
-        print "<table>";
+        print "<table border='1'>";
         
         for($i = 0; $i < count($img); $i+=$col){
             print "<tr>";

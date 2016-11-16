@@ -75,24 +75,21 @@ define('DB', 'victory');
             $result = mysqli_query($conn, $sql);
 
 //            $row = mysqli_fetch_array($result, MYSQLI_NUM);
-//            printf("%s (%d)\n", $row['id'], $row['name']);
+//            printf("%s (%d)\n", $row[0], $row[1]);
 
             mysqli_stmt_bind_result($stmt, $id, $name, $url);
 
             print "<table border='1'>";
-//            $cnt = 0;
+
+            $count = 0;
+            
             while (mysqli_stmt_fetch($stmt)) {
+                
                 print "<tr><td width='150' height='150'><img src='".$url."'></td></tr>";
                 print "<tr><td width='150' height='70'><a href='".$id."'>".$name."</a></td></tr>";
             }
             print "</table>";
 //
-//            for ($i = 0; $i < count($pName); $i++) {
-//                print $pName[i] . '<br>';
-//            }
-
-
-
             /**
              * 開放
              */
