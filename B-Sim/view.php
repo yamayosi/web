@@ -17,7 +17,7 @@ define('DB', 'victory');
         <title>Victory文具</title>
         <meta charset="UTF-8">
        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="./css/victory.css">
+       <link rel="stylesheet" href="./css/swiper.min.css">
     </head>
     <?php
     $n = 1;
@@ -193,7 +193,7 @@ define('DB', 'victory');
             if (count($t_url) == $i + $j) {
                 break;
             }
-            print "\t\t<td width='150' height='60'>{$t_name[$i + $j]}</td>\n";
+            print "\t\t<td width='150' height='60'><a href='http://2016.b-sim.net/user/item/".$t_id[$i + $j]."'>".$t_name[$i + $j]."</a></td>\n";
         }
         print "\t</tr>\n";
     }
